@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinQ Sign-Up</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="image/CinQ-Logo.png" alt="Logo"></div>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="#">About</a>
+            <!-- <button class="btnLogin-popup">Login</button> -->
+        </nav>
+    </header>
+    <div class="wrapper">
+        <!-- <span class="icon-close">
+            <i class="fa-solid fa-xmark"></i>
+        </span> -->
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action='#'>
+                <div class=" input-box">
+                    <span class="icon"></span>
+                    <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class=" input-box">
+                    <span class="icon"></span>
+                    <i class="fa-solid fa-lock" style="color: #ffffff;"></i>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have a acount?
+                        <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action='#'>
+                <div class=" input-box">
+                    <span class="icon"></span>
+                    <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class=" input-box">
+                    <span class="icon"></span>
+                    <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class=" input-box">
+                    <span class="icon"></span>
+                    <i class="fa-solid fa-lock" style="color: #ffffff;"></i>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">I agree to the terms & conditions</a>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have a acount?
+                        <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+
+</body>
+</html>
