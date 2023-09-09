@@ -14,7 +14,7 @@ sidebar();
 // Home page Section(top rated,upcoming,trending...)
 const homePageSection = [
     {
-        title:"Upcoming Movies",
+        title:"For You",
         path:"/movie/upcoming"
 
     },
